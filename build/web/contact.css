@@ -1,0 +1,112 @@
+.contact-container
+{
+    height:80%;
+    width:100%;
+    background-color:white;
+}
+.contact-header
+{
+    height:30%;
+    width:100%;
+    background-image: url('cont.png');
+    background-size: 100% 100%;
+}
+body
+{
+    margin:0;
+    
+}
+.contact-container .contact-left
+{
+    float:left;
+    height:100%;
+    width:40%;
+    padding: 10px;
+    margin: auto;
+    
+}
+ .bt
+{
+    width:5vw;
+    position:static;
+    background:#3e9cbf;
+    padding: 5px 5px 10px;
+    cursor:pointer;
+    border-radius:5px;
+    color:whitesmoke;
+    font-size:1vw;
+    font-weight: 100;
+    font-family: oswald,sans-serif;
+    text-shadow: 1px 1px black;
+    border:hidden;
+    box-shadow:inset 0px 1px 0px #3e9cbf,
+                     0px 3px 0px 0px #205c73,
+                     0px 7px 5px #999; 
+}
+.bt:hover
+{
+    box-shadow: inset 0px 1px 0px whitesmoke,
+                      0px 4px 0px #205c73,
+                      0px 7px 0px #3e9cbf;
+        
+    
+    
+}
+.contact-left .contact-elements input,textarea
+{
+    float:right;
+}
+.contact-left .contact-elements input:hover
+{
+    border-radius:10px;
+}
+.contact-left textarea
+{
+    border-radius: 2px;
+    border:2px;
+    border-color:silver;
+    border-style:ridge;
+    
+}
+.contact-left .contact-elements
+{
+    font-weight: 400;
+    color:black;
+    text-shadow:1px 1px 1px seagreen;
+}
+.contact-left input
+{
+    margin: auto;
+    padding: 5px;
+    border-radius: 2px;
+    border-color:silver;
+    border-style: ridge;
+}
+.contact-container .contact-right
+{
+    float:right;
+    height:100%;
+    width:50%;
+    padding: 10px;
+    margin: auto;
+}
+.contact-container .contact-right
+{
+    color:whitesmoke;
+    font-size: 1vw;
+    text-shadow:1px 1px 1px black;
+}
+.contact-container .contact-right .sp
+{
+font-size: 2vw;
+color:black;
+text-shadow:1px 1px 1px white;
+}
+
+.contact-container .contact-right .sp2
+{
+    margin:50px;
+font-size: 1.5vw;
+color:black;
+text-shadow:1px 1px 1px white;
+}

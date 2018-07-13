@@ -1,0 +1,546 @@
+body
+{
+margin:0;
+}
+
+.container
+{
+    height:100%;
+    width:100%;
+    margin:auto;
+}
+.head
+{
+    height:20%;
+    width:100%;
+}
+
+.head .header
+{
+    height:100%;
+    width:100%;
+    position: relative;
+    border-radius:0;
+    background-image: url("copy.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.ttl
+{   height:10%;
+    width:20%;
+    margin:auto;
+    font-size: 4vw;
+    font-family:constantia;
+    text-shadow:2px 2px 2px red;
+}
+ .log
+{
+    
+    height:100%;
+    width:15%;
+    float:right;
+}
+.log .btn
+{
+    width:5vw;
+    position:static;
+    background:#3e9cbf;
+    padding: 5px 5px 10px;
+    cursor:pointer;
+    margin-top:0.1vh;
+    border-radius:5px;
+    color:whitesmoke;
+    font-size:1vw;
+    font-weight: 100;
+    font-family: oswald,sans-serif;
+    text-shadow: 1px 1px black;
+    border:hidden;
+    box-shadow:inset 0px 1px 0px #3e9cbf,
+                     0px 3px 0px 0px #205c73,
+                     0px 7px 5px #999; 
+}
+
+
+
+
+
+
+
+
+
+
+.nav{
+    height:8%;
+    width:100%;
+}
+
+.menu ul,
+.menu li,
+.menu a 
+{
+list-style: none;
+margin: 0;
+padding: 0;
+border: 0;
+line-height: 1;
+font-family: 'Lato', sans-serif;
+}
+.nav .menu 
+{
+padding-top:3px;
+padding-bottom: 3px;
+position:relative;
+width:100%; 
+border-radius: 5px;
+box-shadow: 3px 3px 3px #888888;
+}
+.menu ul 
+{
+zoom: 1;
+background:radial-gradient(darkgrey,black);
+border-color:radial-gradient(darkgrey,black);
+background: linear-gradient(top, #36b0b6 0%, #2a8a8f 100%);
+padding: 5px 5px;
+border-radius: 5px;
+}
+.menu ul:before 
+{
+  content: '';
+  display: block;
+}
+.menu ul:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+.menu li {
+  float: left;
+  margin: 0 5px 0 0;
+  border: 1px solid transparent;
+  list-style: none;
+}
+.menu li a {
+  
+  border-radius: 5px;
+  padding: 8px 15px 9px 15px;
+  display: block;
+  text-decoration: none;
+  color: ghostwhite;
+  border: 1px solid transparent;
+  font-size: 1.2vw;
+  font-weight: 600;
+  text-shadow: 1px 1px black;
+}
+.menu li.active 
+{
+  border-radius: 5px;
+  border: 1px solid #36b0b6;
+}
+.menu li.active a 
+{
+  border-radius: 5px;
+  display: block;
+  background: #1e6468;
+  border: 1px solid #133e40;
+  box-shadow: inset 0 5px 10px #133e40;
+}
+.menu li:hover
+{
+  border-radius: 5px;
+  border: 1px solid #36b0b6;
+}
+.menu li:hover a 
+{
+  border-radius: 5px;
+  display: block;
+  background: #1e6468;
+  border: 1px solid #133e40;
+  box-shadow: inset 0 5px 10px whitesmoke;
+}
+
+
+
+.slider
+{
+height:40%;
+width:100%;
+background-repeat:repeat-x;background-size:100% 100%;
+transition-delay:10s;
+animation-name:slider;
+animation-duration:30s;
+animation-fill-mode:both;
+animation-iteration-count:infinite;
+animation-timing-function:cubic-bezier();
+animation-direction:alternate-reverse;
+}
+@keyframes slider
+{
+0%{background-image:url('Uttar.jpg');}
+10%{background-image:url('heritage.jpg');}
+20%{background-image:url('beauty_taj.jpg');}
+30%{background-image:url('fatehpur.jpg');}
+40%{background-image:url('krishna.jpg');}
+50%{background-image:url('imambara.jpg');}
+60%{background-image:url('UP.jpg');}
+70%{background-image:url('Lko.jpg');}
+80%{background-image:url('ambedkar.jpg');}
+90%{background-image:url('krishna.jpg');}
+100%{background-image:url('fort-palaces.jpg');}
+}
+.youvideo
+{
+    margin-top: 1%;
+    float:bottom;
+    clear:both;
+    height:40%;
+    width:100%;
+}
+.video
+{
+    float:left;
+    height:100%;
+    width:30%;
+    border-color:bisque;
+    background:linear-gradient(to right, white, #edffcc, #d28901);
+    background:linear-gradient(to left,chocolate, #edffcc, #d28901);
+    border-style:solid;
+    border-radius:20px 20px 0px 0px;
+    box-shadow:5px 5px 5px #888888;
+    padding-bottom:0%;
+}
+ .h{
+    height: 20%;
+    border-radius:10px;
+    width:100%;
+    background-color:transparent;
+    margin-left:0%;
+    font-size: 1vw;
+    font-weight:bold;
+    font-style: oblique;
+    font-family:serif;
+    text-align: center;
+    padding:1px 1px;
+    line-height: 1;
+    animation:plus 1s ease infinite;  
+    clear: both;
+ }
+ @keyframes plus
+{
+    0%{
+        -webkit-transform: scale(1);
+    }
+    50%{
+        -webkit-transform: scale(1.1);
+    }
+
+    100%{
+        -webkit-transform: scale(1);
+    }
+}
+h3
+{
+    color:ghostwhite;
+    
+}
+h4{
+    color:black;
+}
+.whats
+{
+    float:right;
+    height:100%;
+    width:69%;
+    background-image: url('Bus.jpg');
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+    border-color:antiquewhite;
+    border-style:solid;
+    border-radius: 10px;
+    overflow: hidden;
+}
+@keyframes what
+{
+    0%{color:darkred;}
+    50%{color:green;}
+    100%{color:blue}
+}
+
+.slide
+{
+    height:80%;
+width:99%;
+text-align:justify;
+margin:auto;
+overflow:hidden;
+font-size:1.2em;
+background-color:transparent;
+-webkit-animation:xyz 15s linear infinite;
+}
+@-webkit-keyframes xyz
+{
+    0%{margin-top: -2%;}
+    30%{margin-top:  0%;} 
+    60%{margin-top:  5%;} 
+    90%{margin-top:  10%;} 
+    100%{margin-top:  12%;}
+}
+.unorder li a
+{
+    text-decoration: none;
+    color:seashell;
+}
+.unorder li
+{
+    font-size:1.5vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.pack
+{
+    height:35%;
+    width:100%;
+    float:bottom;
+}
+.packages
+{
+    height:100%;
+    width:100%;
+    float: left;
+   
+}
+.flip3D
+{
+    height:90%;
+    width:20%;
+    background-color: gray;
+    float:left;
+    margin-top: 5px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+.flip3D > .front
+{
+    position: absolute;
+transform:perspective( 600px ) rotateY( 0deg );
+background:gainsboro;
+border-radius:8px;
+backface-visibility:hidden;
+transition:-webkit-transform .5s linear 0.1s;
+text-align:center;
+font-size:1vw;
+height:33%;
+width:20%;
+}
+
+.flip3D > .back
+{
+    position: absolute;
+transform:perspective(600px) rotateX( -180deg );
+background:#a61;
+border-radius:8px;
+backface-visibility:hidden;
+transition:-webkit-transform  .5s linear 0.1s;
+height: 33%;
+width:20%;
+}
+
+.flip3D:hover > .front
+{
+-webkit-transform:perspective(600px) rotateX( 180deg );
+
+}
+.flip3D:hover > .back
+{
+-webkit-transform:perspective(600px) rotateX( 0deg );
+text-align:center;
+}
+ 
+.pack-about
+{
+    margin-top: 2%;
+    padding: 5px;
+    background-color: darkgrey;
+    color:white;
+    text-shadow:1px 1px 1px black;
+    animation:1s tt ease-in-out infinite; 
+}
+@-webkit-keyframes tt
+{
+    0%{color:white;}
+    50%{color:red;}
+    100%{color:white;}
+    
+    
+}
+.go
+{
+    margin:5px 5px 5px 5px;
+    float:right;
+    height:95%;
+    width:16%;
+    background-color: white;
+    border-radius: 10px;
+}
+.go-text span
+{
+color:white;
+text-shadow:1px 1px  1px black;
+font-size:1.5vw;
+font-weight: 500;
+text-align: center;
+text-transform: capitalize;
+}
+.go-img
+{
+    height:30%;
+    width:30%;
+margin-top: 10%;
+margin-left:35%;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+.foot
+{
+    margin-top: 0;
+    height:30%;
+    width:100%;
+    border-radius: 0px 0px 5px 5px;
+    border-style:none;
+    position: absolute;
+    background-color:darkgrey;
+}
+.news
+{
+    height:12%;
+    width:100%;
+    background-color:silver;
+    
+}
+.news .logo
+{
+    height:100%;
+    width:6%;
+    float:left;
+    background-image: url('news.gif');
+    background-size: 100% 100%;
+}
+.news .latest
+{
+    float:right;
+    height:100%;
+    width:93.5%;
+    font-weight: 300;
+    color:white;
+    text-shadow:1px 1px 1px black;
+    padding: 2px;
+}
+.news .latest marquee:hover
+{
+ color:blue;
+ text-shadow:1px 1px 1px white;
+ marquee-speed: slow;
+ scroll-amount:1;
+ scroll-delay:1;
+    
+}
+.left
+{
+    clear:both;
+    height:60%;
+    width:60%;
+    background-color: transparent;
+    float:left;
+    margin: auto;
+    border-radius: 5px 0px 0px 5px;
+}
+.foot .left ul .l 
+{
+    display: inline;
+    padding: 5px;   
+}
+.foot .left ul .l a
+{
+    text-decoration: none;
+    color:white;
+    text-transform: capitalize;
+    font-weight:500;
+}
+.foot .left ul .l a:hover
+{
+    color:ghostwhite;
+    text-shadow:1px 1px 1px black;
+}
+
+.right
+{
+    margin-right: 2%;
+    float:right;
+    height:40%;
+    width:28%;
+}
+.right .sp
+{
+    font-weight: 600;
+    color:ghostwhite;
+    text-shadow: 1px 1px 1px black;
+    font-size: 1.5vw;
+    float: left;
+    margin:auto;
+   margin-top: 2%;
+}
+.right .u
+{
+
+    float:right;
+}
+.right ul li 
+{
+    padding: 1px;
+    display: inline;
+}
+.right .u img
+{
+    border:none;
+    height:30px;
+    width:30px;
+    cursor: pointer;
+}
+.right .u li img:hover
+{
+    transform: scale(1.1);
+    
+}
+.copy
+{
+    position :absolute;
+    background-color:transparent;
+    text-align: center;
+    margin-left: 33%;
+    margin-top: 5%;
+    color:white;
+    text-shadow:1px 1px 1px black;
+    
+}

@@ -1,0 +1,100 @@
+.reg-container
+{
+    height:100%;
+    width:100%;
+    
+}
+body
+{
+    margin:0;
+    
+}
+.content
+{   width: 400px;
+    padding: 20px;
+    background:antiquewhite;
+    border-radius: 5px;
+    border-top: 5px solid #ff656c;
+    margin: 0 auto;   
+}
+.top
+{
+    height:10%;
+    margin: 0px auto;
+    padding: 20px;
+}
+.content .top .left
+{  
+    text-decoration:underline;
+    float:left;
+    color: black;
+    font-size: 22px;
+    font-family: ostwald;
+    text-shadow: 1px 1px 1px brown;
+}
+.data1
+{
+    height:5%;
+    margin:0 auto;
+    padding: 20px;
+}
+.data1 input
+{
+    height:35px;
+    
+}
+.data2
+{
+    height:10%;
+    margin:0 auto;
+    padding:20px
+}
+.selection
+{
+    float:right;
+    border-style: ridge;
+    border-color:black;
+    
+}
+.data3
+{
+    height:20%;
+    margin:0 auto;
+    padding:25px;
+}
+.data4
+{
+    height:5%;
+    margin:0 auto;
+    padding:20px
+}
+.data5
+{
+    height:2%;
+    margin:0 auto;
+    padding:20px;
+}
+fieldset
+{
+    border-left-style: none;
+    border-right-style: none;
+    border-top-color: crimson;
+    border-bottom-color: crimson;
+}
+input
+{
+    border-radius:4px;
+    border-color:silver;
+    border-style:ridge;
+ text-align: center;
+}
+input:focus
+{
+    border-color:gold;
+    border:10px;
+}
+
+#user{
+    background:#fff url('user.png') 10px top no-repeat;
+    background-size: 30px 40px; 
+}
